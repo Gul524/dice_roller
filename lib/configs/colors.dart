@@ -1,14 +1,11 @@
 import 'package:flutter/material.dart';
 
-bool kcDarkMode = false;
-bool colorChange = true;
-
-Color kcPrimaryColor = const Color.fromARGB(255, 52, 209, 248);
+Color kcPrimaryColor = const Color.fromARGB(255, 14, 181, 223);
 Color kcSecondaryColor = const Color.fromARGB(49, 59, 0, 127);
-Color kcBgColor =
-    (kcDarkMode) ? const Color(0xFF121212) : const Color(0xFFE0E0E0);
-Color kcTextColor =
-    (kcDarkMode) ? const Color(0xFFFFFFFF) : const Color(0xFF000000);
+Color kcDarkBgColor = const Color.fromARGB(255, 36, 35, 35);
+Color kcLightBgColor = const Color.fromARGB(255, 222, 217, 217);
+Color kcDarkTextColor = const Color.fromARGB(255, 255, 255, 255);
+Color kcLightTextColor = const Color.fromARGB(255, 0, 0, 0);
 
 List<Color> darkColorList = [
   const Color.fromARGB(255, 0, 182, 9),
